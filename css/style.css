@@ -62,8 +62,8 @@ article h2 {
     margin-bottom: 5px;
 }
 
-h2.New::after {
-    content: ' *New';
+.New::before {
+    content: '*New ';
     color: #F00;
     font-style: italic;
 }
